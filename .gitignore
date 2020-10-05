@@ -12,3 +12,4 @@ out/
 .settings
 .classpath
 .factorypath
+.attach_pid*
