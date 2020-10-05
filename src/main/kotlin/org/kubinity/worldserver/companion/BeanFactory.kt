@@ -1,4 +1,4 @@
-package trinity.core.rest.layer
+package org.kubinity.worldserver.companion
 
 import io.micronaut.context.annotation.Bean
 import io.micronaut.context.annotation.Factory

@@ -1,4 +1,4 @@
-package trinity.core.rest.layer
+package org.kubinity.wordserver.companion
 import io.micronaut.runtime.EmbeddedApplication
 import io.micronaut.test.annotation.MicronautTest
 import org.junit.jupiter.api.Assertions
