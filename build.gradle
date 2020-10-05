@@ -36,7 +36,8 @@ dependencies {
 
     implementation("jakarta.xml.ws:jakarta.xml.ws-api:2.3.3")
     implementation("com.sun.xml.ws:jaxws-ri:2.3.3")
-    implementation("me.sander:trinity-core-soap-client:1.0-SNAPSHOT")
+    
+    implementation("org.kubinity:trinity-core-soap-client:0.1.0")
 
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
