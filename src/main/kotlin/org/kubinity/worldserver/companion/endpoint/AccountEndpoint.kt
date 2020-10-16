@@ -1,12 +1,12 @@
-package trinity.core.rest.layer.endpoint
+package org.kubinity.worldserver.companion.endpoint
 
 import io.micronaut.http.HttpResponse
 import io.micronaut.http.annotation.*
-import trinity.core.rest.layer.domain.account.ChangeLockStatus
-import trinity.core.rest.layer.domain.account.ChangePassword
-import trinity.core.rest.layer.domain.account.CreateUser
-import trinity.core.soap.client.command.Command
-import trinity.core.soap.client.command.CommandInvoker
+import org.kubinity.soap.client.command.Command
+import org.kubinity.soap.client.command.CommandInvoker
+import org.kubinity.worldserver.companion.account.ChangeLockStatus
+import org.kubinity.worldserver.companion.account.ChangePassword
+import org.kubinity.worldserver.companion.account.CreateUser
 import javax.inject.Inject
 
 @Controller("/account")

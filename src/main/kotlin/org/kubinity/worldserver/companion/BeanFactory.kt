@@ -1,11 +1,12 @@
-package trinity.core.rest.layer
+package org.kubinity.worldserver.companion
 
 import io.micronaut.context.annotation.Bean
 import io.micronaut.context.annotation.Factory
-import trinity.core.soap.client.command.CommandInvoker
-import trinity.core.soap.client.soap.SoapClient
-import trinity.core.soap.client.soap.SoapConnection
-import trinity.core.soap.client.soap.SoapCredentials
+import org.kubinity.soap.client.command.CommandInvoker
+import org.kubinity.soap.client.soap.SoapClient
+import org.kubinity.soap.client.soap.SoapConnection
+import org.kubinity.soap.client.soap.SoapCredentials
+
 import java.net.URL
 import javax.xml.soap.SOAPConnectionFactory
 
